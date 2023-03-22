@@ -1,8 +1,8 @@
 import DateTime from './DateTime';
-import TimePretty from './DateTimePretty';
+import WithTimePretty from './WithTimePretty';
 
 function Video(props) {
-    const DateTimePretty = TimePretty(DateTime);
+    const DateTimePretty = WithTimePretty(DateTime);
     return (
         <div className="video">
             <iframe
